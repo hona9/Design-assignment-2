@@ -24,7 +24,7 @@
     float: right;
 }
 .small-search{
-    float: left;
+    float: right;
 }
 .user{
     float: right;
@@ -112,6 +112,9 @@
 }
 
 @media screen and (min-width:576px){
+    .small-search{
+        float: left;
+    }
     .search .mobile-hamburger{
         display: none;
     }
@@ -247,6 +250,12 @@
     }
 }
 @media screen and (min-width:1000px){
+    .search{
+        float: right;
+    }
+    .user{
+        margin-right: 20px;
+    }
     .navigation-wrapper{
         display: block;
     }
@@ -315,5 +324,31 @@
     }
     .request a{
         color: #a9a9a9;
+    }
+    .search{
+        float: right;
+    }
+    .footer-nav ul li{
+        float: left;
+        display: block;
+    }
+    .footer-nav ul li a {
+        color: #f5f5f5;
+    }
+    .footer-nav{
+        margin-left: 25px;
+    }
+    .footer-nav ul li:before {
+        content: "." ;
+        padding: 7px;
+        color: #d5d5d5;
+    }
+      
+    .footer-nav ul li:first-child:before {
+        content: "";
+        padding: 0px;
+    }
+    .copyright-area{
+        margin-right: 25px;
     }
 }
