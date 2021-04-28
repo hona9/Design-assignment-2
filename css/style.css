@@ -193,7 +193,7 @@
         right:3px;
     }
     .small-search{
-        margin-left: 1px;
+        position: relative;
     }
     .main-content{
         margin: 0 auto;

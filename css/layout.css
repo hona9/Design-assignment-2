@@ -18,13 +18,16 @@
         top: 21px;
         left: 35px;
     }
+    .user{
+        padding-right: 20px;
+    }
     .main-wrapper{
         width: 1002px;
         margin: 0 auto;
     }
     .header{
         height: 85px;
-        width: inherit;
+        width: 972px;
     }
     .navigation-wrapper{
         width:100%;
