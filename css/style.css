@@ -250,14 +250,29 @@
     }
 }
 @media screen and (min-width:1000px){
+    .header .container{
+        width: 800px;
+    }
     .search{
+        position: relative;
+        bottom: 50px;
+        left:300px;
+        float: right;
+    }
+    .main-nav{
+        float: left;
+    }
+    .notification-nav{
         float: right;
     }
     .user{
         margin-right: 20px;
     }
     .navigation-wrapper{
+        float: left;
         display: block;
+        margin-top: -13px;
+        margin-bottom: 30px;
     }
     .site-logo{
         width: 220px;
@@ -312,6 +327,7 @@
         float: left;
     }
     .right-subscribed-nav{
+        margin-left: 20px;
         width: 50px;
         float: right;
     }

@@ -13,12 +13,18 @@
     padding: 15px;
 }
 @media screen and (min-width:1000px){
+    .logo{
+        position: relative;
+        top: 21px;
+        left: 35px;
+    }
     .main-wrapper{
         width: 1002px;
         margin: 0 auto;
     }
     .header{
-        width: 1002px;
+        height: 85px;
+        width: inherit;
     }
     .navigation-wrapper{
         width:100%;
