@@ -28,6 +28,8 @@
 }
 .user{
     float: right;
+}
+.user ul.nav{
     display: none;
 }
 .navigation-wrapper{
@@ -112,6 +114,12 @@
 }
 
 @media screen and (min-width:576px){
+    .heading-primary{
+        display: none;
+    }
+    .user ul.nav{
+        display: inline;
+    }
     .small-search{
         float: left;
     }
