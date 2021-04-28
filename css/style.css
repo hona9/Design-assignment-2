@@ -304,7 +304,17 @@
     .navigation a:hover {
         text-decoration: underline;
     }
-      
+    .main-content{
+        width: 520px;
+    }
+    .left-entries-nav{
+        width: 50px;
+        float: left;
+    }
+    .right-subscribed-nav{
+        width: 50px;
+        float: right;
+    }
     .main-nav {
         float: left;
         font-size: 14px;
@@ -351,4 +361,5 @@
     .copyright-area{
         margin-right: 25px;
     }
+    
 }
